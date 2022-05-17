@@ -31,7 +31,7 @@
    + khi đạt đc một số ngưỡng điểm nhất định thì tăng dần độ khó cho game bằng cách tăng vận tốc của ống, thu nhỏ khoảng cách hay cho ống di chuyển lên xuống, ....
  - Những điều rút ra được sau quá trình làm game:
    + nâng cao kỹ năng code bằng C++
-   + hiểu hơn về cách sử dụng các câu lệnh
+   + hiểu hơn về cách áp dụng các câu lệnh của thư viện SDL cũng như ngôn ngữ C++
    + bước đầu hình dung cách tổ chức và làm việc với các project 
    + hiểu hơn về cách lập trình hướng đối tượng
     
