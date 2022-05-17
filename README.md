@@ -29,7 +29,7 @@
     - chim có thể biến thành 1 số nhân vật hoạt hình trong 1 khoảng thời gian nhất định và sử dụng các kỹ năng đặc trưng của nhân vật ấy để qua game
     (VD Doraemon có thể dùng đèn pin thu nhỏ, Son Goku có thể đấm bay ống, The Flash có thể chạy nhanh và vượt qua ống)
    + khi đạt đc một số ngưỡng điểm nhất định thì tăng dần độ khó cho game bằng cách tăng vận tốc của ống, thu nhỏ khoảng cách hay cho ống di chuyển lên xuống, ....
-  - Những điều rút ra được sau quá trình làm game:
+ - Những điều rút ra được sau quá trình làm game:
    + nâng cao kỹ năng code bằng C++
    + hiểu hơn về cách sử dụng các câu lệnh
    + bước đầu hình dung cách tổ chức và làm việc với các project 
