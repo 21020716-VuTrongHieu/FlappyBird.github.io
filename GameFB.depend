@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1652470893 source:c:\users\dell\desktop\gamefb\main.cpp
+	<iostream>
+	"CommonFunc.h"
+	"BaseObject.h"
+	"Bird.h"
+	"Column.h"
+	"ImpTimer.h"
+	"Game.h"
+	<ctime>
+	"TextObject.h"
+
+1652464203 c:\users\dell\desktop\gamefb\commonfunc.h
+	"windows.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"BaseObject.h"
+	<SDL_mixer.h>
+
+1652291260 source:c:\users\dell\desktop\gamefb\commonfunc.cpp
+	"CommonFunc.h"
+
+1652463936 source:c:\users\dell\desktop\gamefb\baseobject.cpp
+	"BaseObject.h"
+
+1652464203 c:\users\dell\desktop\gamefb\baseobject.h
+	"CommonFunc.h"
+
+1652470205 c:\users\dell\desktop\gamefb\bird.h
+	"CommonFunc.h"
+
+1652470205 source:c:\users\dell\desktop\gamefb\bird.cpp
+	"Bird.h"
+	<iostream>
+
+1652466880 source:c:\users\dell\desktop\gamefb\column.cpp
+	"Column.h"
+	<iostream>
+
+1652466880 c:\users\dell\desktop\gamefb\column.h
+	"CommonFunc.h"
+
+1652464259 c:\users\dell\desktop\gamefb\game.h
+	"CommonFunc.h"
+	"BaseObject.h"
+	"TextObject.h"
+
+1652470805 source:c:\users\dell\desktop\gamefb\game.cpp
+	"Game.h"
+	<iostream>
+
+1652464203 source:c:\users\dell\desktop\gamefb\imptimer.cpp
+	"ImpTimer.h"
+
+1652464203 c:\users\dell\desktop\gamefb\imptimer.h
+	"CommonFunc.h"
+
+1652292109 c:\users\dell\desktop\gamefb\textobject.h
+	"CommonFunc.h"
+
+1652293522 source:c:\users\dell\desktop\gamefb\textobject.cpp
+	"TextObject.h"
+
+1652289218 source:c:\users\dell\desktop\gamefb\menugame.cpp
+	"MenuGame.h"
+
+1652290023 c:\users\dell\desktop\gamefb\menugame.h
+	"CommonFunc.h"
+	"TextObject.h"
+
