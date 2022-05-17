@@ -13,7 +13,7 @@ static SDL_Window* g_window = NULL;
 static SDL_Renderer* g_render = NULL;
 static SDL_Event g_event;
 
-//static SDL_Surface* g_img_menu_start = NULL;
+//MIXER
 
 static Mix_Chunk *Ball_tap = NULL;
 static Mix_Chunk *Hit = NULL;
@@ -41,7 +41,7 @@ const int G = 3;
 const int COLUMN_WIDTH = 60;
 const int COLUMN_HIGHT = 500;
 const int COLUMN_SPEED = 5;
-const int COLUMN_BLANK = 250;  // khoang cach ong tren va duoi
+const int COLUMN_BLANK = 150;  // khoang cach ong tren va duoi
 const int COLUMN_DISTANCE = 300; // khoang cach 2 cot canh nhau
 
 //Bird
@@ -50,14 +50,6 @@ const int BIRD_HIGHT = 46;
 
 //FPS
 const int FPS = 25;
-
-//POINT
-
- //static int POINT_ = 0;
-
-
-
-
 
 
 #endif // COMMONFUNC_H_INCLUDED
