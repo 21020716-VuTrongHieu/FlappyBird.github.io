@@ -8,9 +8,6 @@
 #include <ctime>
 #include "TextObject.h"
 
-
-
-
 using namespace std;
 
 BaseObject g_background;
@@ -70,7 +67,6 @@ bool LoadBackground()
     bool ret_1 = g_background.LoadImg("FlappyBird_image/AnhNen_2.bmp",g_render);
     bool ret_2 = g_game_start.LoadImg("FlappyBird_image/Menu_Start.bmp",g_render);
     bool ret_3 = g_game_over.LoadImg("FlappyBird_image/Menu_GameOver.bmp",g_render);
-   // bool ret_2 = g_gameover.LoadImg("FlappyBird_image/Game_Over_3.bmp",g_render);
    if(ret_1 == false && ret_2 == false && ret_3 == false ) return false;
 
    if( Mix_OpenAudio( 44100, MIX_DEFAULT_FORMAT, 2, 2048 ) < 0 ) return false;
@@ -79,9 +75,6 @@ bool LoadBackground()
    Ting = Mix_LoadWAV( "Sound/Ting.wav" );
    Hit = Mix_LoadWAV( "Sound/Hit.wav" );
    Music = Mix_LoadMUS("Sound/yamate.wav");
-
-        //Mix_PlayChannel(-1,gScratch, 0);
-
     return true;
 }
 
@@ -101,7 +94,7 @@ void close()
 
 
 
-int ShowMenuStart(/*SDL_Surface* des,*/ TTF_Font* font)
+int ShowMenuStart(TTF_Font* font)
 {
   const int MenuItemStart = 2;
   SDL_Rect pos_arr[MenuItemStart];
@@ -123,8 +116,7 @@ int ShowMenuStart(/*SDL_Surface* des,*/ TTF_Font* font)
 
   text_menu_start[0].SetText("Play Game");
   text_menu_start[0].SetColor(TextObject::WHITE_TEXT);
-  //text_menu_start[0].
-
+ 
   text_menu_start[1].SetText("Exit");
   text_menu_start[1].SetColor(TextObject::WHITE_TEXT);
 
@@ -136,9 +128,6 @@ int ShowMenuStart(/*SDL_Surface* des,*/ TTF_Font* font)
   {
       SDL_RenderClear(g_render);
       g_game_start.Render(g_render, NULL);
-
-      //score_game.LoadFromRenderText(font_score,g_render);
-      //score_game.RenderText(g_render,SCREEN_WIDTH -200 , 15);
 
       for(int i =0; i<MenuItemStart; i++)
       {
@@ -443,9 +432,7 @@ while(!is_quit)
 
         // dua background len man hinh
         g_background.Render(g_render,NULL);
-        //g_game_over.Render(g_render, NULL);
-
-
+        
         // dua con chim len man hinh
         p_player.Show(g_render);
         p_player.DoPlayer();
