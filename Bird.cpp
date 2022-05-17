@@ -11,7 +11,6 @@ BirdObject::BirdObject()
     y_val_ = 0;
     width_frame_ = 0;
     height_frame_ = 0;
-    status_ = -1 ;
     input_type_.up_ = 0;
     input_type_.down_ = 0;
     speed_ = 0;
@@ -79,7 +78,6 @@ void BirdObject::HandelInputAction(SDL_Event events, SDL_Renderer* render)
         {
         case SDLK_SPACE:
             {
-                status_ = WALK_UP;
                 input_type_.up_ = 1;
                 input_type_.down_ = 0;
             }
@@ -95,7 +93,6 @@ void BirdObject::HandelInputAction(SDL_Event events, SDL_Renderer* render)
         {
         case SDLK_SPACE:
             {
-                status_ = WALK_DOWN;
                 input_type_.down_ = 1;
                 input_type_.up_ = 0;
             }
