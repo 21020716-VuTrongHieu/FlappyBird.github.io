@@ -70,3 +70,67 @@
 	"CommonFunc.h"
 	"TextObject.h"
 
+1652809769 source:c:\users\dell\desktop\flappybird.github.io\baseobject.cpp
+	"BaseObject.h"
+
+1652809769 c:\users\dell\desktop\flappybird.github.io\baseobject.h
+	"CommonFunc.h"
+
+1652809824 c:\users\dell\desktop\flappybird.github.io\commonfunc.h
+	"windows.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"BaseObject.h"
+	<SDL_mixer.h>
+
+1652809769 source:c:\users\dell\desktop\flappybird.github.io\bird.cpp
+	"Bird.h"
+	<iostream>
+
+1652809769 c:\users\dell\desktop\flappybird.github.io\bird.h
+	"CommonFunc.h"
+
+1652809769 source:c:\users\dell\desktop\flappybird.github.io\column.cpp
+	"Column.h"
+	<iostream>
+
+1652809769 c:\users\dell\desktop\flappybird.github.io\column.h
+	"CommonFunc.h"
+
+1652809769 source:c:\users\dell\desktop\flappybird.github.io\commonfunc.cpp
+	"CommonFunc.h"
+
+1652809770 source:c:\users\dell\desktop\flappybird.github.io\game.cpp
+	"Game.h"
+	<iostream>
+
+1652809770 c:\users\dell\desktop\flappybird.github.io\game.h
+	"CommonFunc.h"
+	"BaseObject.h"
+	"TextObject.h"
+
+1652809770 c:\users\dell\desktop\flappybird.github.io\textobject.h
+	"CommonFunc.h"
+
+1652809770 source:c:\users\dell\desktop\flappybird.github.io\imptimer.cpp
+	"ImpTimer.h"
+
+1652809770 c:\users\dell\desktop\flappybird.github.io\imptimer.h
+	"CommonFunc.h"
+
+1652809770 source:c:\users\dell\desktop\flappybird.github.io\main.cpp
+	<iostream>
+	"CommonFunc.h"
+	"BaseObject.h"
+	"Bird.h"
+	"Column.h"
+	"ImpTimer.h"
+	"Game.h"
+	<ctime>
+	"TextObject.h"
+
+1652809770 source:c:\users\dell\desktop\flappybird.github.io\textobject.cpp
+	"TextObject.h"
+
