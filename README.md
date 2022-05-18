@@ -1,7 +1,9 @@
 # FlappyBird.github.io
 # 1 Hướng dẫn cài đặt:
  - clone code từ link : https://github.com/21020716-VuTrongHieu/FlappyBird.github.io.git  
- - tải và cài đặt SDL2, SD2_image, SDL2_mixer, SDL2_ttf về IDE
+ - vào terminal của máy chạy câu lệnh git clone https://github.com/21020716-VuTrongHieu/FlappyBird.github.io.git
+ - vào file đã clone về chọn file bin -> Debug -> GameFB để chơi
+ //- tải và cài đặt SDL2, SD2_image, SDL2_mixer, SDL2_ttf về IDE
 # 2 Mô tả game:
  - dựa theo game FlappyBird nguyên bản
  - dùng phím space điều khiển con chim vượt qua các ống nước
