@@ -7,6 +7,7 @@
  - dựa theo game FlappyBird nguyên bản
  - dùng phím space điều khiển con chim vượt qua các ống nước
 # 3 Các chức năng chính:
+ link youtube: https://www.youtube.com/watch?v=2woGqoXpZ-4
  - menu bắt đầu có 2 lựa chọn là "Play Game" và "Exit"
  - khi bắt đầu con chim sẽ rơi tự do
  - nhấn phím space để điều khiển con chim bay lên
